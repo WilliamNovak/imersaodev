@@ -1,0 +1,100 @@
+body {
+    font-family: 'serif';
+    min-height: 300px;
+    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-color: rgb(153,204,255);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5vh;
+    height: 60%;
+}
+  
+.page-title {
+    color: rgb(1,1,1);
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: rgb(1,1,1);
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+    background-color: rgb(1,1,1);
+    padding: 8px;
+    border-radius: 4px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+.calculator-div {
+    margin: auto;
+    margin-top:750px;
+    width: 300px;
+    height: 40%;
+    display: grid;
+    padding: 10px;
+    background-color: rgb(14,120,134);
+    border-radius: 8px;
+}
+  
+.calc-title {
+    text-align: center;
+    color: rgb(255,255,255);
+}
+  
+input, label {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+  
+input {
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+  
+label {
+    color: rgb(255,255,255);
+}
+  
+.buttons-div {
+    display: flex;
+    justify-content: center;
+}
+  
+button {
+    width: 45%;
+    height: 30px;
+    margin: 10px auto 10px auto;
+    padding: 8px;
+    background-color: rgb(255,255,255);
+    color: rgb(14,120,134);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+  
+.result-div {
+    text-align:center;
+    font-weight: bold;
+    width: 50%;
+    background-color: rgb(255,255,255);
+    border-radius: 4px;
+    padding: 12px;
+    margin: auto;
+    margin-bottom: 5px;
+}

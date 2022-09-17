@@ -1,0 +1,93 @@
+* {
+    text-align: center;
+}
+  
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("./imgs/background.jpg");
+    background-size: 100%;
+    background-opacity: 1.5;
+    background-position: top;
+    background-repeat: repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+  
+table {
+    border: 0.2px white;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+h1 {
+    color: white;
+    background-color: rgb(20,130,20,0.8);
+    width: 30%;
+    margin: 15px auto 15px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+  
+th, tr, td {
+    padding: 0.6rem;
+    /* border: solid 0.1px black; */
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(20,130,20,0.8)
+}
+
+td {
+    background-color: rgb(80,200,70,0.5)
+}
+
+.time-col {
+    background-color: rgb(90,240,90,0.5)
+}
+
+button {
+    padding: 8px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+}
+
+.btnVitoria {
+    background-color: rgb(20,130,20,0.8);
+}
+
+.btnEmpate {
+    background-color: rgb(20,80,190,0.8);
+}
+
+.btnDerrota {
+    background-color: rgb(180,30,30,0.8);
+}
