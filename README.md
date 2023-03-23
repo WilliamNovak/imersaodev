@@ -1,5 +1,5 @@
 # imersaodev
-Exercises from imersao dev course of Alura, practicing javascript, css and html.
+:memo: Exercises from imersao dev course of Alura, practicing javascript, css and html.
 
 <h3>Applications:</h3>
 
