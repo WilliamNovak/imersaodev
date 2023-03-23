@@ -9,5 +9,5 @@ Exercises from imersao dev course of Alura, practicing javascript, css and html.
   <li>Super Trunfo Game</li>
   <li>Soccer Classification</li>
   <li>AluraFlix</li>
-  <li></li>
+  <li>Currency Converter</li>
 </ul>
